@@ -4,9 +4,9 @@ import { $ } from "execa"
 import ora from "ora"
 
 const APP_BASE_URL = "http://localhost:3000"
-const MANAGEMENT_CLIENT_NAME = "SaaStart Management"
-const DASHBOARD_CLIENT_NAME = "SaaStart Dashboard"
-const DEFAULT_CONNECTION_NAME = "SaaStart-Shared-Database"
+const MANAGEMENT_CLIENT_NAME = "Roxtron Management"
+const DASHBOARD_CLIENT_NAME = "Roxtron Dashboard"
+const DEFAULT_CONNECTION_NAME = "Roxtron-Shared-Database"
 const CUSTOM_CLAIMS_NAMESPACE = "https://example.com"
 
 // checks
