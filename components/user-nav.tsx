@@ -15,7 +15,7 @@ import {
 
 export async function UserNav() {
   const session = await appClient.getSession()
-
+  console.log({session})
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>

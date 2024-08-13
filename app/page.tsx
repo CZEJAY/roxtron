@@ -48,7 +48,7 @@ export default async function Home() {
                 Roxtron is an innovative SaaS platform that integrates seamlessly with WhatsApp, offering powerful tools to enhance the management and security of your groups.
               </p>
               <p className="text-lg">
-                Our platform features an intelligent bot that acts as your group's vigilant guardian, ensuring that your group remains safe, organized, and free from disruptive elements.
+                Our platform features an intelligent bot that acts as your group&apos;s vigilant guardian, ensuring that your group remains safe, organized, and free from disruptive elements.
               </p>
             </div>
           </blockquote>

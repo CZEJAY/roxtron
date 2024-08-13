@@ -73,7 +73,7 @@ export default async function DashboardLayout({
             <Auth0Logo className="h-6 w-6" />
 
             <div className="font-mono font-semibold">
-              <Link href="/">SaaStart</Link>
+              <Link href="/">Roxtron</Link>
             </div>
 
             <div>
@@ -81,14 +81,14 @@ export default async function DashboardLayout({
                 <Link href="/">Home</Link>
               </Button>
 
-              <Button variant="link" asChild>
+              {/* <Button variant="link" asChild>
                 <Link
                   href="https://github.com/auth0-developer-hub/auth0-b2b-saas-starter"
                   target="_blank"
                 >
                   Source
                 </Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
 

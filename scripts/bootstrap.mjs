@@ -56,7 +56,7 @@ try {
     "--data", JSON.stringify({
       "customize_mfa_in_postlogin_action": true,
       "flags": { "enable_client_connections": false },
-      "friendly_name": "SaaStart",
+      "friendly_name": "Roxtron",
       "picture_url": "https://cdn.auth0.com/blog/auth0_by_okta_logo_black.png",
     }),
   ];
@@ -102,7 +102,7 @@ try {
   const createClientArgs = [
     "apps", "create",
     "--name", MANAGEMENT_CLIENT_NAME,
-    "--description", "The SaaStart client to manage tenant resources and facilitate account creation.",
+    "--description", "The Roxtron client to manage tenant resources and facilitate account creation.",
     "--callbacks", `${APP_BASE_URL}/onboarding/callback`,
     "--logout-urls", APP_BASE_URL,
     "--type", "regular",
@@ -224,7 +224,7 @@ try {
     "--data", JSON.stringify({
       strategy: "auth0",
       name: DEFAULT_CONNECTION_NAME,
-      display_name: "SaaStart",
+      display_name: "Roxtron",
       enabled_clients: [dashboardClient.client_id, managementClient.client_id],
     }),
   ];
