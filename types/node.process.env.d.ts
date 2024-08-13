@@ -26,5 +26,8 @@ declare namespace NodeJS {
 
     // The namespace used to prefix custom claims
     CUSTOM_CLAIMS_NAMESPACE: string
+
+    KOYEB_API_URL: string
+    KOYEB_API_TOKEN: string
   }
 }
